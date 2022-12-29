@@ -62,6 +62,12 @@ a {
   transition: all 0.3s ease;
 }
 
+.category-btn-16,
+.category-btn-17,
+.category-btn-18 {
+  color: orange !important;
+}
+
 @media screen and (max-width: 900px) {
   .category-btn{
     margin: 10px;

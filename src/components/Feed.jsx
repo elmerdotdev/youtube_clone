@@ -32,7 +32,7 @@ const Feed = () => {
           {selectedCategory} <span style={{ color: '#f31503' }}>videos</span>
         </Typography>
 
-        <Videos videos={videos} />
+        <Videos videos={videos.filter((video) => video.id.kind !== "youtube#playlist")} />
       </Box>
     </Stack>
   )

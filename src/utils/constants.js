@@ -11,27 +11,31 @@ import GraphicEqIcon from '@mui/icons-material/GraphicEq';
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
+import DomainVerificationIcon from '@mui/icons-material/DomainVerification';
+import MouseIcon from '@mui/icons-material/Mouse';
 
 export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
 
 export const categories = [
   { name: 'New', icon: <HomeIcon />, },
-  { name: 'JS Mastery', icon: <CodeIcon />, },
-  { name: 'Coding', icon: <CodeIcon />, },
-  { name: 'ReactJS', icon: <CodeIcon />, },
-  { name: 'NextJS', icon: <CodeIcon />, },
   { name: 'Music', icon: <MusicNoteIcon /> },
-  { name: 'Education', icon: <SchoolIcon />, },
-  { name: 'Podcast', icon: <GraphicEqIcon />, },
   { name: 'Movie', icon: <OndemandVideoIcon />, },
-  { name: 'Gaming', icon: <SportsEsportsIcon />, },
   { name: 'Live', icon: <LiveTvIcon />, },
-  { name: 'Sport', icon: <FitnessCenterIcon />, },
-  { name: 'Fashion', icon: <CheckroomIcon />, },
-  { name: 'Beauty', icon: <FaceRetouchingNaturalIcon />, },
-  { name: 'Comedy', icon: <TheaterComedyIcon />, },
-  { name: 'Gym', icon: <FitnessCenterIcon />, },
-  { name: 'Crypto', icon: <DeveloperModeIcon />, },
+  { name: 'Podcast', icon: <GraphicEqIcon />, },
+  { name: 'UX/UI', icon: <DomainVerificationIcon />, },
+  { name: 'DesignerUp', icon: <MouseIcon />, },
+  { name: 'Mizko', icon: <MouseIcon />, },
+  { name: 'Relab Studios', icon: <MouseIcon />, },
+  { name: 'The Futur', icon: <MouseIcon />, },
+  { name: 'AM Design', icon: <MouseIcon />, },
+  { name: 'Punit Chawla', icon: <MouseIcon />, },
+  { name: 'Figma', icon: <MouseIcon />, },
+  { name: 'NNgroup', icon: <MouseIcon />, },
+  { name: 'Flux Academy', icon: <MouseIcon />, },
+  { name: 'Aliena Cai', icon: <MouseIcon />, },
+  { name: 'Ali Abdaal', icon: <MouseIcon />, },
+  { name: '思維咖啡', icon: <MouseIcon />, },
+  { name: '思維致富 ThinkRich', icon: <MouseIcon />, },
 ];
 
 export const demoThumbnailUrl = 'https://i.ibb.co/G2L2Gwp/API-Course.png';

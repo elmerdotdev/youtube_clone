@@ -10,15 +10,15 @@ const Sidebar = ({ selectedCategory, setSelectedCategory }) => (
       height: { sx: 'auto', md: '95%' },
       flexDirection: { md: 'column' }
     }}>
-      {categories.map((category) => (
+      {categories.map((category, idx) => (
         <button
-          className="category-btn"
+          className={`category-btn category-btn-${idx}`}
           onClick={() => setSelectedCategory(category.name)}
           style={{
             background: category.name === selectedCategory && '#fc1503',
             color: 'white'
           }}
-          key={category.name}
+          key={idx}
         >
           <span style={{ color: category.name === selectedCategory ? 'white' : 'red', marginRight: '15px' }}>{category.icon}</span>
           <span style={{ opacity: category.name === selectedCategory ? '1' : '0.8' }}>{category.name}</span>
