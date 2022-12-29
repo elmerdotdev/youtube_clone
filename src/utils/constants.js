@@ -18,10 +18,6 @@ export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
 
 export const categories = [
   { name: 'New', icon: <HomeIcon />, },
-  { name: 'Music', icon: <MusicNoteIcon /> },
-  { name: 'Movie', icon: <OndemandVideoIcon />, },
-  { name: 'Live', icon: <LiveTvIcon />, },
-  { name: 'Podcast', icon: <GraphicEqIcon />, },
   { name: 'UX/UI', icon: <DomainVerificationIcon />, },
   { name: 'DesignerUp', icon: <MouseIcon />, },
   { name: 'Mizko', icon: <MouseIcon />, },
